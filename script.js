@@ -61,7 +61,7 @@ const images = [
 
    function verify(){
     if(firstClick && secondClick){
-        if(firstClick.src === secondClick.src){
+        if(firstClick.className === secondClick.className){
             document.getElementById('para').innerHTML = 'Verified';
 
         }else{
